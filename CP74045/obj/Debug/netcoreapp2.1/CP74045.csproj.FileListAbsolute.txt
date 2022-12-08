@@ -1,0 +1,14 @@
+C:\Users\1000074045\source\repos\CP74045\CP74045\bin\Debug\netcoreapp2.1\CP74045.deps.json
+C:\Users\1000074045\source\repos\CP74045\CP74045\bin\Debug\netcoreapp2.1\CP74045.runtimeconfig.json
+C:\Users\1000074045\source\repos\CP74045\CP74045\bin\Debug\netcoreapp2.1\CP74045.runtimeconfig.dev.json
+C:\Users\1000074045\source\repos\CP74045\CP74045\bin\Debug\netcoreapp2.1\CP74045.dll
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.csprojAssemblyReference.cache
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.csproj.CoreCompileInputs.cache
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.RazorAssemblyInfo.cache
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.RazorAssemblyInfo.cs
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.AssemblyInfoInputs.cache
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.AssemblyInfo.cs
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.RazorTargetAssemblyInfo.cache
+C:\Users\1000074045\source\repos\CP74045\CP74045\bin\Debug\netcoreapp2.1\CP74045.pdb
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.dll
+C:\Users\1000074045\source\repos\CP74045\CP74045\obj\Debug\netcoreapp2.1\CP74045.pdb
