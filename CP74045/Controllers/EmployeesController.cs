@@ -24,9 +24,7 @@ namespace CP74045.Controllers
         {
             _employeesService.AddEmployee(client);
             return Ok();
-        }
-
-        //httpget
+        }     
 
         [HttpGet("get-all-employee")]
         public IActionResult GetAllEmployees()

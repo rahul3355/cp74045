@@ -14,5 +14,8 @@ namespace CP74045.Data.Models
         public string ClientGender { get; set; }
         public string ClientUsername { get; set; }
         public string ClientPassword { get; set; }
+
+        //Navigation Properties
+        public List<Client_Project> Client_Projects { get; set; }
     }
 }

@@ -45,6 +45,8 @@ namespace CP74045
             services.AddTransient<EmployeesService>();
             services.AddTransient<AgreementsService>();
             services.AddTransient<AssetsService>();
+            services.AddTransient<Client_ProjectsService>();
+            services.AddTransient<Project_TeamsService>();
 
 
 

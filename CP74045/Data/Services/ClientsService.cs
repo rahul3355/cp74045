@@ -31,6 +31,7 @@ namespace CP74045.Data.Services
 
             
             
+            
         }
 
         public List<Client> GetAllClients() => _context.Clients.ToList();

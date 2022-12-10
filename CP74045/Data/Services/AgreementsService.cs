@@ -24,9 +24,35 @@ namespace CP74045.Data.Services
             };
             _context.Agreements.Add(_agreement);
             _context.SaveChanges();
-
-
-
         }
+
+        public List<Agreement> GetAllAgreements() => _context.Agreements.ToList();
+
+        public Agreement GetAgreementById(int agreementId) => _context.Agreements.FirstOrDefault(n => n.AgreementId == agreementId);
+
+        public Agreement UpdateAgreementById(int Id, AgreementVM agreement)
+        {
+            var _agreement = _context.Agreements.FirstOrDefault(n => n.AgreementId == Id);
+            if (_agreement != null)
+            {
+
+                _agreement.AgreementFile = agreement.AgreementFile;
+                
+
+                _context.SaveChanges();
+            }
+            return _agreement;
+        }
+
+        public void DeleteAgreementById(int agreementId)
+        {
+            var _agreement = _context.Agreements.FirstOrDefault(n => n.AgreementId == agreementId);
+            if (_agreement != null)
+            {
+                _context.Agreements.Remove(_agreement);
+                _context.SaveChanges();
+            }
+        }
+
     }
 }

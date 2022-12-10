@@ -25,5 +25,33 @@ namespace CP74045.Controllers
             _assetsService.AddAsset(asset);
             return Ok();
         }
+
+        [HttpGet("get-all-assets")]
+        public IActionResult GetAllAssets()
+        {
+            var allassets = _assetsService.GetAllAssets();
+            return Ok(allassets);
+        }
+
+        [HttpGet("get-asset-by-id/{id}")]
+        public IActionResult GetAssetById(int id)
+        {
+            var asset = _assetsService.GetAssetById(id);
+            return Ok(asset);
+        }
+
+        [HttpPut("update-asset-by-id/{id}")]
+        public IActionResult UpdateAssetById(int id, [FromBody]AssetVM asset)
+        {
+            var updatedAsset = _assetsService.UpdateAssetById(id, asset);
+            return Ok(updatedAsset);
+        }
+
+        [HttpDelete("delete-asset-by-id/{id}")]
+        public IActionResult DeleteAssetById(int id)
+        {
+            _assetsService.DeleteAssetById(id);
+            return Ok();
+        }
     }
 }

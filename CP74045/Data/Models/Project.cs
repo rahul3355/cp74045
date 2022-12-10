@@ -17,6 +17,9 @@ namespace CP74045.Data.Models
         public string ProjectDatabaseUsed { get; set; }
         public string ProjectInfo { get; set; }
         public string ProjectStatus { get; set; }
-        
+
+        //Navigation Properties
+        public List<Client_Project> Client_Projects { get; set; }
+
     }
 }
